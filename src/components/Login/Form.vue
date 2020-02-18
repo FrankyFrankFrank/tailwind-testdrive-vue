@@ -5,7 +5,7 @@
         <TextInput type="text" placeholder="Name" v-model="name" />
         <TextInput type="password" placeholder="Password" v-model="password" />
         <Submit :enabled="canSubmit" />
-        <p class="p-4 text-center text-xs text-red-500 uppercase leading-tight">By clicking submit you agree to the terms of service.<br />Spooky stuff.</p>
+        <p class="p-4 text-center text-xs text-red-500 uppercase leading-tight">By clicking submit you agree to the <span class="underline">terms of service</span>.<br />Spooky stuff.</p>
       </div>
       <HelpButton />
     </form>

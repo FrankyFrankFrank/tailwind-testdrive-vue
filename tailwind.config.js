@@ -3,7 +3,19 @@ const plugin = require('tailwindcss/plugin')
 module.exports = {
   theme: {
     extend: {
-      //// ADD COLOUR CUSTOMIZATIONS
+      // colors: {
+      //   yellow: {
+      //     '400': 'hsl(50, 90%, 65%)',
+      //     '500': 'hsl(50, 90%, 60%)',
+      //     '600': 'hsl(50, 90%, 55%)',
+      //     '700': 'hsl(50, 90%, 50%)',
+      //     '800': 'hsl(50, 90%, 40%)',
+      //   },
+
+      //   red: {
+      //     '500': 'hsl(7, 90%, 55%)'
+      //   },
+      // }
     },
   },
   variants: {},
@@ -16,17 +28,17 @@ module.exports = {
           textTransform: 'uppercase',
           letterSpacing: theme('letterSpacing.widest'),
           fontSize: theme('fontSize.lg'),
-          color: theme('color.red.500'),
-          background: theme('color.yellow.400'),
+          color: theme('colors.red.500'),
+          background: theme('colors.yellow.400'),
           transition: 'all 500ms',
           borderBottom: theme('borderWidth.2'),
-          borderColor: theme('color.red.500'),
+          borderColor: theme('colors.red.500'),
           '&::placeholder': {
-            color: theme('color.yellow.800'),
+            color: theme('colors.yellow.800'),
           },
           '&:focus': {
-            background: theme('color.red.500'),
-            color: theme('color.yellow.400'),
+            background: theme('colors.red.500'),
+            color: theme('colors.yellow.400'),
           }
         }
       }
