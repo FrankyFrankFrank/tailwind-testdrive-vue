@@ -1,3 +1,20 @@
-@tailwind base;
-@tailwind components;
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
 @tailwind utilities;
+
+/* @responsive {
+  .circle-right {
+    background: radial-gradient(circle at 100%, theme('colors.yellow.400') 50%, theme('colors.red.500') 50%);
+  }
+
+  .circle-left {
+    background: radial-gradient(circle at 0%, theme('colors.yellow.400') 50%, theme('colors.red.500') 50%);
+  }
+
+  .circle-center {
+    background: radial-gradient(theme('colors.yellow.400') 50%, theme('colors.red.500') 50%);
+  }
+} */
