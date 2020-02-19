@@ -1,6 +1,6 @@
 <template>
-  <form class="flex items-start md:mx-64">
-      <div class="border-red-500 border-2 pt-32 w-64 bg-yellow-400 transform skew-y-6 shadow">
+  <form class="flex flex-col md:flex-row items-end md:items-start md:mx-64">
+      <div class="border-red-500 md:border-2 pt-32 md:w-64 w-full md:h-auto bg-yellow-400 transform md:skew-y-6 md:shadow">
         <h1 class="text-xs text-red-500 font-black uppercase tracking-widest p-1">Please Log In</h1>
         <TextInput type="text" placeholder="Name" v-model="name" />
         <TextInput type="password" placeholder="Password" v-model="password" />
