@@ -1,5 +1,7 @@
 # tailwind-testdrive-vue
 
+For a good time, visit [the tailwind screencasts](https://tailwindcss.com/screencasts/)
+
 ## Project setup
 ```
 yarn install
