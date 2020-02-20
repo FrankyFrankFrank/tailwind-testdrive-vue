@@ -5,7 +5,7 @@
 
 @tailwind utilities;
 
-/* @responsive {
+@responsive {
   .circle-right {
     background: radial-gradient(circle at 100%, theme('colors.yellow.400') 50%, theme('colors.red.500') 50%);
   }
@@ -17,4 +17,4 @@
   .circle-center {
     background: radial-gradient(theme('colors.yellow.400') 50%, theme('colors.red.500') 50%);
   }
-} */
+}
